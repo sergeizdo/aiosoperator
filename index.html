@@ -575,12 +575,16 @@
       .form-row { grid-template-columns: 1fr; }
       .hero-stats { gap: 24px; }
       .contact-form-wrap { padding: 28px 20px; }
+      .for-grid { grid-template-columns: repeat(2, 1fr); }
+      .services-grid { grid-template-columns: repeat(2, 1fr); }
     }
     @media (max-width: 480px) {
       .hero-headline { letter-spacing: -1.5px; }
       .hero-actions { flex-direction: column; }
       .hero-actions .btn { width: 100%; justify-content: center; }
       .cta-actions { flex-direction: column; align-items: center; }
+      .for-grid { grid-template-columns: 1fr; }
+      .services-grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
